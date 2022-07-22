@@ -1,1 +1,2 @@
-dir/
+node_modules/
+*.json
