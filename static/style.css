@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+QLD+Beginner&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Edu+QLD+Beginner&family=Rubik+Moonrocks&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Edu+QLD+Beginner&family=Rubik+Moonrocks&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Edu+QLD+Beginner&family=Monoton&family=Rubik+Moonrocks&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Beginner&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rampart+One&display=swap');
+*{
+        margin: 0px;
+        box-sizing: border-box;
+}
+#navbar{
+        background-color: rgb(196, 60, 60);
+        padding: 3px 14px;
+        margin: 0;
+}
+#navbar ul{
+        display: flex;
+        flex-direction: row;
+        /* justify-content: center; */
+}
+#navbar li{
+        list-style: none;
+        
+
+}
+#navbar li a{
+        text-decoration: none;
+        padding: 7px 11px;
+        font-family: 'Edu QLD Beginner', cursive;
+        color: #e5d7d7;
+        padding: 22px 33px;
+      
+
+}
+#navbar li a:hover{
+        color: rgb(27, 25, 25);
+}
+#introsection{
+        height: 300px;
+        background: center / cover no-repeat url("static/bg.jpg");
+        background-color: red;
+        color: white;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        /* font-family: 'Edu QLD Beginner', cursive;
+        font-family: 'Rubik Moonrocks', cursive; */
+        color: cornflowerblue;
+        font-size: 40px;
+        font-family: 'Edu NSW ACT Foundation', cursive;
+}
+#sponsorssection{
+        height: 300px;
+        
+        background-color: #fcfbff;
+        
+}
+#sponsorssection h2{
+        padding:  22px;
+        text-align: center;
+        font-family: indi;
+        color: greenyellow;
+        font-family: 'Edu QLD Beginner', cursive;
+font-family: 'Monoton', cursive;
+
+
+        
+}
+#footer{
+        height: 300px;
+        background-color:#fbc5c5;
+
+
+}
+.vinny{
+        color: darkkhaki;
+        font-size: xx-large;
+}
+.card{
+        display: inline-block;
+        border: 2px solid black;
+        border-radius: 12px;
+        width: 30%;
+        margin: 23px 24px;
+        height: 190px;
+}
+.card h3{
+        text-align: center;
+        margin: 12px;
+        color: antiquewhite;
+}
+.a{
+        background: center / cover no-repeat url("static/b.jpg");
+
+}
+.b{
+        background: center / cover no-repeat url("static/a.jpg");
+
+
+}
+.c{
+        background: center / cover no-repeat url("static/f.jpg");
+
+
+}
+.a h3{
+        text-align: left;
+        color: darkgoldenrod;
+        font-family: 'Edu VIC WA NT Beginner', cursive;
+
+}
+.c h3{
+        text-align: left;
+        color: #aba9a5;
+        margin: 12px;
+        font-family: 'Edu VIC WA NT Beginner', cursive;
+
+}
+.b h3{
+        color:#a78a8a;
+        font-family: 'Edu VIC WA NT Beginner', cursive;
+
+}
+#footer h2{
+        padding:  22px;
+        text-align: center;
+        font-family: 'Monoton', cursive;
+        color: #bf7f53;
+
+}
+#logo h4{
+       position: relative;
+       bottom: -3px;
+       right: -8px;
+       font-size: 14px;
+       color: black;
+       font-family: 'Rampart One', cursive;
+}
+#logo img{
+        height: 50px;
+        position: relative;
+       top: 7px;
+       left:0px; 
+}
+.top li{
+        display: block;
+        margin: 25px;
+}
+#sponsor{
+        height: 120px;
+        max-width: 1000px;
+        margin: auto;
+}
+.spimage{
+        height: 130%;
+        margin: 20px;
+}
+#footer1{
+        background-color: black;
+        color: white;
+        display: flex;
+        justify-content: center;
+        height: 50px;
+}

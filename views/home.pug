@@ -1,0 +1,40 @@
+extends base.pug
+
+block scripts
+  script(src='/static/index.js')
+
+
+block style 
+  style
+      include ../static/style.css
+
+block content
+    
+    nav#navbar.top
+      ul
+         div#logo 
+             img(src="/static/v.jpg", alt="", srcset="")
+             h4 VDA
+         li #[a(href="/") Home]
+         li #[a(href="/") About]
+         li #[a(href="/contact") Contact us]
+         li #[a(href="/") Services]
+    section#introsection
+        div Welcome to Vinny's Dance Academy
+        div.vinny "Eat Sleep Dance Repeat"
+    section#sponsorssection
+        h2 Our Mission
+        div.card.a 
+          h3 Dance perfection
+        div.card.b
+          h3 Dance the way you like
+        div.card.c
+          h3 Expert Teaching
+    footer#footer 
+        h2 Our sponsors
+        div#sponsor
+           img(src="/static/logo1.jpg", alt="sponsor img", class='spimage')
+           img(src="/static/logo2.jpg", alt="sponsor img", class='spimage')
+           img(src="/static/logo3.jpg", alt="sponsor img", class='spimage')
+           img(src="/static/logo4.jpg", alt="sponsor img", class='spimage')
+ 
