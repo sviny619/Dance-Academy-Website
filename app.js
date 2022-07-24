@@ -9,6 +9,7 @@ mongoose.connect('mongodb://localhost/contactDance', {useNewUrlParser: true,useU
 const port = 8000
 
 // define mongoose schema:its the way in which our data will be saved 
+// define mongoose schema:its the way in which our data will be saved 
 const contactSchema = new mongoose.Schema({
       
         Name:String,
