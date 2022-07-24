@@ -10,10 +10,11 @@ const port = 8000
 
 // define mongoose schema:its the way in which our data will be saved 
 const contactSchema = new mongoose.Schema({
-        name: String,
+      
+        Name:String,
         phone: String,
         email: String,
-        address: String
+        Address: String,
         
       });
 //creating a model like verifying tht this is our model 
